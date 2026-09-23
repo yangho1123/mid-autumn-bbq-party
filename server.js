@@ -131,7 +131,25 @@ const server=http.createServer((req,res)=>{
   let pathname=decodeURIComponent(u.pathname); if(pathname==='/') pathname='/index.html';
   const file=path.normalize(path.join(PUBLIC,pathname));
   if(!file.startsWith(PUBLIC)) return res.writeHead(403).end();
-  fs.readFile(file,(err,data)=>{ if(err) return res.writeHead(404).end('Not found'); res.writeHead(200,{'Content-Type':MIME[path.extname(file)]||'application/octet-stream'}); res.end(data); });
+  fs.readFile(file,(err,data)=>{
+    if(!err){
+      res.writeHead(200,{'Content-Type':MIME[path.extname(file)]||'application/octet-stream'});
+      return res.end(data);
+    }
+
+    // Client-side routes such as /party/:id should load the SPA entry page.
+    // The frontend then reads location.pathname and renders the correct view.
+    if(req.method === 'GET' && !path.extname(pathname)) {
+      const indexFile = path.join(PUBLIC, 'index.html');
+      return fs.readFile(indexFile, (indexErr, indexData) => {
+        if(indexErr) return res.writeHead(500).end('Server error');
+        res.writeHead(200, {'Content-Type':'text/html; charset=utf-8'});
+        res.end(indexData);
+      });
+    }
+
+    res.writeHead(404).end('Not found');
+  });
 });
 ensureData();
 server.listen(PORT,HOST,()=>console.log(`BBQ Party app listening on ${HOST}:${PORT}`));
