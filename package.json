@@ -1,0 +1,12 @@
+{
+  "name": "mid-autumn-bbq-party",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mid-Autumn BBQ shared checklist",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "parties": [
+    {
+      "id": "b092c903-9927-48a2-aff0-98bd39757a70",
+      "name": "測試中秋烤肉",
+      "date": "2026-09-26",
+      "time": "18:30",
+      "location": "台南測試地點",
+      "createdAt": "2026-09-23T06:26:24.032Z",
+      "items": [
+        {
+          "id": "40c16573-c139-4028-ba5d-f305ba9bf4a4",
+          "category": "器具",
+          "name": "烤肉架",
+          "quantity": 1,
+          "unit": "",
+          "checked": true,
+          "checkedBy": "測試者"
+        },
+        {
+          "id": "2d80fd15-e880-4362-b6e2-c7979871b92c",
+          "category": "器具",
+          "name": "烤網",
+          "quantity": 1,
+          "unit": "",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "fee01445-9f13-4436-803a-4807e7af25b4",
+          "category": "器具",
+          "name": "木炭",
+          "quantity": 2,
+          "unit": "袋",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "78748a60-e2d3-43ca-8af7-14fb6589616e",
+          "category": "器具",
+          "name": "生火用品",
+          "quantity": 1,
+          "unit": "",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "54be7305-e6ff-4f79-a574-765a1355df9b",
+          "category": "器具",
+          "name": "夾子",
+          "quantity": 2,
+          "unit": "",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "ac1632c0-3adf-47f2-aed0-ee4854f7f024",
+          "category": "器具",
+          "name": "烤肉刷",
+          "quantity": 1,
+          "unit": "",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "751d7df9-7906-4666-9b04-f067cdd1ef59",
+          "category": "器具",
+          "name": "鋁箔紙",
+          "quantity": 1,
+          "unit": "卷",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "16e46ff9-ed71-4868-84bc-f1ef175580c1",
+          "category": "器具",
+          "name": "免洗餐具",
+          "quantity": 1,
+          "unit": "包",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "ac049c61-0926-465a-9f77-bdc0f437a2a4",
+          "category": "器具",
+          "name": "垃圾袋",
+          "quantity": 1,
+          "unit": "捲",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "89182e0d-6561-445f-ad9f-2b24fff91fda",
+          "category": "器具",
+          "name": "濕紙巾／衛生紙",
+          "quantity": 2,
+          "unit": "包",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "6488e3df-9204-4de0-83e0-0df005261db9",
+          "category": "食材",
+          "name": "牛肉",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "36082afd-4f45-4147-b569-2d1eda98d6bf",
+          "category": "食材",
+          "name": "豬肉",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "e511b11b-bd22-447b-a1a3-e1814ee29c8b",
+          "category": "食材",
+          "name": "雞肉",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "470e9195-1c9a-490a-9870-2d83ed3d7d64",
+          "category": "食材",
+          "name": "香腸",
+          "quantity": 1,
+          "unit": "包",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "dc446dbc-27bf-45cb-857c-882eda1a4e58",
+          "category": "食材",
+          "name": "培根",
+          "quantity": 1,
+          "unit": "包",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "02e0c0f7-2628-46cd-8207-020d856dd563",
+          "category": "食材",
+          "name": "玉米",
+          "quantity": 1,
+          "unit": "包",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "a6378659-62f7-49f2-bdae-d81fc04efd29",
+          "category": "食材",
+          "name": "甜不辣／豆干",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "08051e7c-c5fc-4bd1-b523-d46953aa95f9",
+          "category": "食材",
+          "name": "菇類",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "ea5d324d-59d1-4259-87a7-cfdff753235c",
+          "category": "食材",
+          "name": "青椒／彩椒",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "53fe5525-8828-4f32-b078-23b69fcbe9b1",
+          "category": "食材",
+          "name": "吐司／麵包",
+          "quantity": 1,
+          "unit": "份",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "451368a0-8d10-4b7f-b7ea-1257b2a7e5d3",
+          "category": "食材",
+          "name": "烤肉醬",
+          "quantity": 1,
+          "unit": "瓶",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "11b4ea42-0144-4a49-ba3a-494eeaaad788",
+          "category": "食材",
+          "name": "鹽／胡椒／調味料",
+          "quantity": 1,
+          "unit": "組",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "c1da3d7f-2c56-4ec3-8a78-340029689e63",
+          "category": "飲料",
+          "name": "礦泉水",
+          "quantity": 1,
+          "unit": "箱",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "700275f6-dd56-4c23-91ba-3c282be7bf51",
+          "category": "飲料",
+          "name": "汽水／茶飲",
+          "quantity": 1,
+          "unit": "箱",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "b74cc374-4efb-41b1-b6c0-f88ecef898e7",
+          "category": "其他",
+          "name": "冰塊",
+          "quantity": 1,
+          "unit": "袋",
+          "checked": false,
+          "checkedBy": ""
+        },
+        {
+          "id": "27c7b0a6-2f78-4c63-acc5-700595b4df31",
+          "category": "其他",
+          "name": "保冷袋／冰桶",
+          "quantity": 1,
+          "unit": "",
+          "checked": false,
+          "checkedBy": ""
+        }
+      ]
+    }
+  ]
+}
